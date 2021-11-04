@@ -7,8 +7,8 @@
 
 ### Features
 
-- [x] Create hash
-- [x] List hashs
+- [x] Create hash com limite de requisição por minuto
+- [x] List hashs com paginação
 - [x] Commands
 
 ### Pré-requisitos
@@ -16,9 +16,11 @@
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 PHP, Composer. 
 
+
+
 ### 🎲 Rodando o Back End 
 
-```bash
+```
 # Clone este repositório
 $ git clone <https://github.com/sabrinasanhtos/teste>
 
@@ -28,5 +30,12 @@ $ composer install
 # Execução do Command
 $ php bin/console app:create-hash "Ávato" -- 20
 
+```
 
-![SignUp Mobile](screenshots/signup-mobile.png)
+# Endpoint list
+![1](https://user-images.githubusercontent.com/25057754/140247725-2c111e47-e86c-48c7-ae94-6cd3cdc0513d.png)
+
+# Command 
+![2](https://user-images.githubusercontent.com/25057754/140248353-4fc398bd-f135-441a-b903-00ed1617056c.png)
+
+
