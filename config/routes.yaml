@@ -1,0 +1,7 @@
+#createHash:
+#  path: /hash
+#  controller: App\Controller\HashController::create
+
+#listHashs:
+#  path: /hash
+#  controller: App\Controller\HashController::list
